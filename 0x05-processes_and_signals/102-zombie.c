@@ -24,7 +24,7 @@ int infinite_while(void)
 */
 int main(void)
 {
-	int i;
+int i;
 	for (i = 0; i < 5; i++)
 	{
 	if (fork() == 0)
