@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Script tp display all IPV4 IPS on a machine
+hostname -I | cut -d' ' -f1 ; hostname -i
